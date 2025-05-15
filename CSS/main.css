@@ -1,0 +1,76 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffe6f0;
+    color: #4b0082;
+    padding: 30px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #c71585;
+  }
+  
+  .formulario {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ec7de9;
+    border-radius: 10px;
+    font-family: 'Times New Roman';
+    background-color: #fff0f5;
+    color: #4b0082;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 14px;
+    background-color: #ec7de9;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Times New Roman';
+  }
+  
+  button:hover {
+    background-color: #ff1493;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  li {
+    background-color: #fff0f5;
+    border: 1px solid #ec7de9;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+  }
+  
+  .btn-excluir {
+    background-color: #ff69b4;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.9em;
+  }
+  
+  .btn-excluir:hover {
+    background-color: #ff1493;
+  }
